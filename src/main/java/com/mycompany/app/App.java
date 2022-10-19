@@ -19,6 +19,8 @@ public class App {
     else if (a != b && a != c && b != c){
       return "es un triangulo escalaleno";
     }
+    
+    return "error no es un triangulo";
   }
 
   public static void main(String[] args) {
