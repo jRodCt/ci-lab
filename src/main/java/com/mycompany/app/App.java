@@ -10,13 +10,15 @@ public class App {
     if (!(a + b > c && a + c > b && b + c > a)) {
       return "error no es un triangulo";
     }
-    if (a == b && a == c && b == c) {
+    else if (a == b && a == c && b == c) {
       return "es un triangulo equilatero";
     }
-    if (a == b || a == c || b == c) {
+    else if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }
-    return "error no es un triangulo";
+    else if (a != b && a != c && b != c){
+      return "error no es un triangulo";
+    }
   }
 
   public static void main(String[] args) {
