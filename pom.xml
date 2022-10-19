@@ -30,7 +30,7 @@
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>GitHub OWNER Apache Maven Packages</name>
+      <name>Ejercicio clase 5</name>
       <url>https://github.com/jRodCt/ci-lab</url>
     </repository>
   </distributionManagement> 
